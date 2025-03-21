@@ -89,7 +89,8 @@ const response = await api.post('/api/Auth/login', {
 ### Back-End (ASP.NET Core)
 Instalação:
 
-Certifique-se de ter o .NET SDK instalado (versão 6.x).
+*Certifique-se de ter o .NET SDK instalado (versão 6.x).*
+
 
 Configuração do Banco de Dados:
 
@@ -117,11 +118,11 @@ A API estará disponível em: https://localhost:44350.
 
 
 - Autenticação:
-
+  ---
 POST /api/Auth/login: Autentica o usuário e retorna um token JWT.
 
 - Usuários:
-
+  ---
 GET /api/Usuario: Retorna todos os usuários.
 
 GET /api/Usuario/{id}: Retorna um usuário específico.
@@ -132,7 +133,9 @@ PUT /api/Usuario/{id}: Atualiza um usuário existente.
 
 DELETE /api/Usuario/{id}: Exclui um usuário.
 
+
 - Processos Juridicos
+  ---
 POST /api/ProcessoJuridico: Insere os processos jurídicos.
 
 GET /api/ProcessoJuridico: Retorna os processos jurídicos.
@@ -150,20 +153,21 @@ POST /api/ProcessoJuridico/{numUnico}/Documentos: Insere os documentos necessár
 POST /api/ProcessoJuridico/TransferirProcesso: Transfere um processo jurídico para outro procurador.
 
 
-- Migrações:
+### Migrações:
 
 Para criar uma nova migração:
 
-add-migration (nome-da-migracao)
+*add-migration (nome-da-migracao)*
+
 
 ## Para aplicar as migrações ao banco de dados:
 
-update database
+*update database*
 
 
 ### 🗂 Estrutura do Projeto
 
-- Front-End
+   ### Front-End
 
 src/
 - ├── assets/           # Imagens 
@@ -172,7 +176,7 @@ src/
 - ├── services/         # Configuração do Axios e chamadas à API
 - └── App.vue           # Componente principal
 
-- Back-End
+    ### Back-End
 
 src/
 - ├── Controllers/      # Controladores da API
