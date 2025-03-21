@@ -117,12 +117,12 @@ A API estará disponível em: https://localhost:44350.
 ### Endpoints da API:
 
 
-- Autenticação:
-  ---
+Autenticação:
+---
 POST /api/Auth/login: Autentica o usuário e retorna um token JWT.
 
-- Usuários:
-  ---
+Usuários:
+---
 GET /api/Usuario: Retorna todos os usuários.
 
 GET /api/Usuario/{id}: Retorna um usuário específico.
@@ -134,8 +134,8 @@ PUT /api/Usuario/{id}: Atualiza um usuário existente.
 DELETE /api/Usuario/{id}: Exclui um usuário.
 
 
-- Processos Juridicos
-  ---
+Processos Juridicos
+---
 POST /api/ProcessoJuridico: Insere os processos jurídicos.
 
 GET /api/ProcessoJuridico: Retorna os processos jurídicos.
@@ -176,7 +176,7 @@ src/
 - ├── services/         # Configuração do Axios e chamadas à API
 - └── App.vue           # Componente principal
 
-    ### Back-End
+ ### Back-End
 
 src/
 - ├── Controllers/      # Controladores da API
