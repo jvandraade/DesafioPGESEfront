@@ -166,19 +166,19 @@ update database
 - Front-End
 
 src/
-├── assets/           # Imagens 
-├── components/       # Componentes Vue.js reutilizáveis
-├── router/           # Configuração das rotas com Vue Router
-├── services/         # Configuração do Axios e chamadas à API
-└── App.vue           # Componente principal
+- ├── assets/           # Imagens 
+- ├── components/       # Componentes Vue.js reutilizáveis
+- ├── router/           # Configuração das rotas com Vue Router
+- ├── services/         # Configuração do Axios e chamadas à API
+- └── App.vue           # Componente principal
 
 - Back-End
 
 src/
-├── Controllers/      # Controladores da API
-├── Data/             # Configuração do banco de dados e migrações
-├── Domain/           # Entidades e interfaces
-├── Services/         # Lógica de negócio e serviços
-├── appsettings.json  # Configurações do projeto
-└── Program.cs        # Ponto de entrada da aplicação
+- ├── Controllers/      # Controladores da API
+- ├── Data/             # Configuração do banco de dados e migrações
+- ├── Domain/           # Entidades e interfaces
+- ├── Services/         # Lógica de negócio e serviços
+- ├── appsettings.json  # Configurações do projeto
+- └── Program.cs        # Ponto de entrada da aplicação
 
